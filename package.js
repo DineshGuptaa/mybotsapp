@@ -1,26 +1,28 @@
 {
-  "name": "messenger-bot",
-  "version": "1.0.0",
-  "description": "Messenger Platform QuickStart Demo",
-  "main": "index.js",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+
+  "name": "my-glitch-app",
+  "version": "0.0.1",
+  "description": "What am I about?",
+  "main": "server.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "engines": {
+    "node": "8.x"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vernon99/messenger-quick-start.git"
+    "url": "https://glitch.com/edit/#!/welcome-project"
   },
-  "keywords": [
-    "messenger",
-    "bot",
-    "quickstart"
-  ],
-  "author": "Mikhail Larionov <mlarionov@fb.com>",
   "license": "MIT",
-  "homepage": "https://developers.facebook.com/docs/messenger-platform/guides/quick-start",
-  "dependencies": {
-    "request": "^2.72.0",
-    "express": "*",
-    "body-parser": "*"
-  }
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
