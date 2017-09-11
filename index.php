@@ -1,1 +1,2 @@
-<?php header( 'Location: /views/index.html' ) ;  ?>
+<?php
+print_r($_GET["hub_challenge"]);
